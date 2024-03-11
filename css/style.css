@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* BODY */
+
+.viewport {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #d9dbd6;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    height: 90%;
+
+    /* debug */
+    border: 1px solid black;
+}
+
+.interaction {
+    width: 30%;
+    /* debug */
+    border: 1px solid black;
+}
+
+.header {
+    background-color: #eaeaea;
+    /* debug */
+    height: 10%;
+}
+
+.notifications {
+    background-color: #8edafc;
+    /* debug */
+    height: 10%;
+}
+
+.search {
+    /* debug */
+    background-color: grey;
+    height: 5%;
+}
+
+.people {
+    /* debug */
+    height: 50px;
+    background-color: goldenrod;
+    border: 1px solid black;
+}
