@@ -1,3 +1,5 @@
+/* SONO PARTITO DA DESKTOP FIRST */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,48 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style-type: none;
+}
+
+button ,
+input {
+    border: 0;
+}
+
+i {
+    display: block;
+}
+
+
+/* UTILITIES */
+
+.g-text {
+    color: #b1b1b1;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+.size {
+    font-size: .7rem;
+}
+
+.twenty {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    padding: 5px;
+}
+
+.eighty {
+    height: 100%;
+    width: 80%;
+    padding: 5px;
+}
 
 /* BODY */
 
@@ -37,20 +81,52 @@ img {
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     background-color: #eaeaea;
     height: 50px;
 }
 
+.action {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+}
+
+.box-img {
+    padding: 5px;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+} 
+
 .notifications {
+    display: flex;
     background-color: #8edafc;
     height: 50px;
 }
 
+#bell {
+    color: #8edafc;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
 .search {
-    height: 20px;
-    /* debug */
-    background-color: grey;
+    background-color: #fafafa;
+    padding: 10px;
+    height: 30px;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
 }
 
 .contact {
@@ -64,14 +140,6 @@ header {
     /* debug */
     border: 1px solid black;
 }
-
-.box-img {
-    padding: 5px;
-    width: 20%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-} 
 
 .profile-photo {
     text-align: center;

@@ -21,15 +21,52 @@
 <body>
     <div class="viewport">
         <div class="container">
+            <!-- FIRST-COL -->
             <div class="interaction">
+                <!-- HEADER -->
                 <header>
                     <div class="box-img">
                         <img src="./img/avatar_io.jpg" alt="foto profilo" class="profile-photo">
                     </div>
-                    <div class="action"></div>
+                    <div class="action">
+                        <ul class="flex">
+                            <li>
+                                <button>
+                                    <i class="fa-solid fa-circle-notch g-text"></i>
+                                </button>
+                            </li>
+                            <li>
+                                <button>
+                                    <i class="fa-solid fa-message g-text"></i>
+                                </button>
+                            </li>
+                            <li>
+                                <button>
+                                    <i class="fa-solid fa-ellipsis-vertical g-text"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
                 </header>
-                <div class="notifications">notifications</div>
-                <div class="search"> search</div>
+                <!-- NOTIFICATIONS -->
+                <div class="notifications">
+                    <div class="twenty">
+                        <i class="fa-solid fa-bell-slash" id="bell"></i>
+                    </div>
+                    <div class="eighty">
+                        <h4><strong class="size">Ricevi notifiche di nuovi messaggi</strong></h4>
+                        <a href="" class="size">Attiva notifiche desktop</a>
+                    </div>
+                </div>
+                <!-- SEARCH-BAR -->
+                <div class="search"> 
+                    <div class="bar">
+                        <i class="fa-solid fa-magnifying-glass g-text size"></i>
+                        <input type="text" aria-label="search-contact" placeholder="Cerca o inizia una nuova chat" class="size">
+                    </div>
+                </div>
+                <!-- CONTACT-LIST -->
                 <div class="contact">
                     <div class="people">
                         <div class="box-img">
@@ -97,6 +134,7 @@
                     </div>
                 </div>
             </div>
+            <!-- SECOND-COL -->
             <div class="chat">
                 <header>header</header>
                 <div class="message">
