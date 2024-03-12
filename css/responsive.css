@@ -19,12 +19,13 @@
     }
 
     .box-img {
-        padding: 0;
         height: 100%;
         width: 100%;
     }
-
+    
     .profile-photo {
+        display: flex;
+        align-items: center;
         height: 100%;
         aspect-ratio: 1;
     }
