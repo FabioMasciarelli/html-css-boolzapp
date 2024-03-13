@@ -33,6 +33,7 @@ i {
 
 .g-text {
     color: #b1b1b1;
+    background-color: transparent;
 }
 
 .flex {
@@ -140,6 +141,7 @@ header {
     text-align: center;
     width: 100%;
     padding: 5px 0;
+    border: 0;
 }
 
 .contact {
